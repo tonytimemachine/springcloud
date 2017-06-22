@@ -49,7 +49,7 @@ public class UserController {
     public List<User> list(){
 
 
-        User[] users=this.restTemplate.getForObject("http://USER-SERVICE/list",User[].class);
+        User[] users=this.restTemplate.getForObject("http://SPRINGCLOUD-PROVIDER-USER-SERVICE/list",User[].class);
         List<User> userList = Arrays.asList(users);
         return userList;
 
@@ -59,7 +59,7 @@ public class UserController {
     @GetMapping("user/get/{id}")
     public User get(@PathVariable Long id){
 
-        return this.restTemplate.getForObject("http://USER-SERVICE/get/id={1}",User.class,id);
+        return this.restTemplate.getForObject("http://SPRINGCLOUD-PROVIDER-USER-SERVICE/get/id={1}",User.class,id);
     }
 
 
