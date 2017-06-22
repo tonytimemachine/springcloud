@@ -1,0 +1,11 @@
+/.idea/
+/tempDirectory/
+/logs/
+/*/.mvn
+/*/*.iml
+/*.iml
+/*/.mvn/
+/*/mvnw
+/*/target/
+/*/mvnw.cmd
+/*/target/*
