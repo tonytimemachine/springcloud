@@ -20,6 +20,10 @@
 
 
 
+	<properties>
+		<start-class>com.timemachine.springcloud.SpringcloudEurekaServerApplication</start-class>
+	</properties>
+
 
 
 </project>

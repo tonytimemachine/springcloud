@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.timemachine.springcloud</groupId>
-	<artifactId>springcloud-h5</artifactId>
+	<artifactId>springcloud-consumer-h5-ribbon</artifactId>
 	<packaging>jar</packaging>
 
-	<name>springcloud-h5</name>
+	<name>springcloud-consumer-h5-ribbon</name>
 	<description>Spring Cloud H5 Appliaction</description>
 
 
