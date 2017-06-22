@@ -13,7 +13,7 @@ springcloud-eureka-server-ha 分布式服务注册中心(高可用版本)
 
 springcloud-provider-user-service 用户服务提供者
 
-springcloud-consumer-h5 用户服务调用者
+springcloud-consumer-h5-ribbon 用户服务调用者，采用ribbon做客户端负载均衡
 
 springcloud-consumer-h5-feign feign声明式服务调用者
 
