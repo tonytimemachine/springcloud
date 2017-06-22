@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * Created by tony on 2017/6/21.
  */
-@FeignClient("user-service")
+@FeignClient("springcloud-provider-user-service")
 public interface UserService {
 
     @RequestMapping(value = "/list",method = RequestMethod.GET)
