@@ -40,7 +40,7 @@
         <module>springcloud-eureka-server</module>
         <module>springcloud-eureka-server-ha</module>
         <module>springcloud-provider-user-service</module>
-        <module>springcloud-consumer-h5</module>
+        <module>springcloud-consumer-h5-ribbon</module>
         <module>springcloud-consumer-h5-feign</module>
         <module>springcloud-api-gateway</module>
     </modules>
